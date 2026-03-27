@@ -1,2 +1,31 @@
 # .gitignore
+# 1. Python Environments
+.venv/
+venv/
+env/
+
+# 2. Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 3. Generated Data & Audio
+# You generate these via scripts, so they shouldn't bloat your Git repo!
+ml_pipeline/data/inputs/*.wav
+ml_pipeline/data/outputs/
+ml_pipeline/data/parameters.json
+
+# 4. C++ Compiled Binaries
+# (For when you compile your FrictionalEngine)
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.dylib
+*.dll
+
+# 5. OS Junk Files
+.DS_Store
+Thumbs.db
 
