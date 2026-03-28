@@ -14,7 +14,7 @@ def generate_calibration_track(filename="data/inputs/calibration_track.wav", sam
     # 1. THE CLICK (Starts at 0.0s)
     # A 5-millisecond burst of white noise with a fast fade-out
     # ==========================================
-    click_duration = 0.010
+    click_duration = 0.009
     click_samples = int(sample_rate * click_duration)
     
     # Generate raw white noise
